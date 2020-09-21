@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSITION</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-list">Home</a></li>
+            <li><a href="about.html" class="nav-list">About</a></li>
+            <li><a href="#" class="nav-list">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main data-router-wrapper>
+        <section data-rauter-view="home" class="home">
+            <div class="home-content">
+                <div class="home-presentation">
+                    <h1>Seamless transition</h1>
+                    <p>Beatiful transition between html pages</p>
+                </div>
+                <img src="img/colors2.jpg" alt="purple painting">
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/transition.js"></script>
+</body>
+</html>
